@@ -3,22 +3,22 @@
 @import "./base/reset";
 @import "./base/visually-hidden";
 
-@import "./layouts.scss/header";
+@import "./components/header";
 
-@import "./layouts.scss/hero";
-@import "./layouts.scss/button";
-@import "./layouts.scss/modal";
+@import "./components/hero";
+@import "./components/button";
+@import "./components/modal";
 
-@import "./layouts.scss/benefits";
+@import "./components/benefits";
 
-@import "./layouts.scss/work";
+@import "./components/work";
 
-@import "./layouts.scss/team";
+@import "./components/team";
 
-@import "./layouts.scss/client";
+@import "./components/client";
 
-@import "./layouts.scss/footer";
+@import "./components/footer";
 
-@import "./layouts.scss/portfolio-buttons";
-@import "./layouts.scss/project";
+@import "./components/portfolio-buttons";
+@import "./components/project";
 

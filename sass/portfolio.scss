@@ -3,10 +3,10 @@
 @import "./base/reset";
 @import "./base/visually-hidden";
 
-@import "./layouts.scss/header";
+@import "./components/header";
 
-@import "./layouts.scss/portfolio-buttons";
-@import "./layouts.scss/project";
+@import "./components/portfolio-buttons";
+@import "./components/project";
 
 
-@import "./layouts.scss/footer";
+@import "./components/footer";
