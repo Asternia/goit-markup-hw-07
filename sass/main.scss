@@ -1,0 +1,24 @@
+@import "./utils/variables.scss";
+@import "./base/container";
+@import "./base/reset";
+@import "./base/visually-hidden";
+
+@import "./layouts.scss/header";
+
+@import "./layouts.scss/hero";
+@import "./layouts.scss/button";
+@import "./layouts.scss/modal";
+
+@import "./layouts.scss/benefits";
+
+@import "./layouts.scss/work";
+
+@import "./layouts.scss/team";
+
+@import "./layouts.scss/client";
+
+@import "./layouts.scss/footer";
+
+@import "./layouts.scss/portfolio-buttons";
+@import "./layouts.scss/project";
+

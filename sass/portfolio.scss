@@ -1,0 +1,12 @@
+@import "./utils/variables.scss";
+@import "./base/container";
+@import "./base/reset";
+@import "./base/visually-hidden";
+
+@import "./layouts.scss/header";
+
+@import "./layouts.scss/portfolio-buttons";
+@import "./layouts.scss/project";
+
+
+@import "./layouts.scss/footer";
