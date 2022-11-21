@@ -28,7 +28,7 @@
   width: 528px;
   background-color: var(--white);
 
-  &_h {
+  &__h {
     display: block;
   
     margin-bottom: 12px;
@@ -41,19 +41,19 @@
     color: var(--title-text-color);
   }
 
-  &_icon {
+  &__icon {
     position: absolute;
     transform: translateY(28px) translateX(12px);
   }
   
-  &_text {
+  &__text {
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
   }
 
-  &_button {
+  &__button {
     display: block;
     margin: 30px auto 0;
     padding: 10px 52px;
@@ -74,13 +74,13 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  &_button:hover,
-  &_button:focus {
+  &__button:hover,
+  &__button:focus {
     background-color: var(--background-button-color);
     outline: none;
   }
 
-  &_link {
+  &__link {
     color: var(--acent-color);
   }
 }
@@ -107,7 +107,7 @@
   margin-right: auto;
   padding: 40px;
 
-  &_input {
+  &__input {
     position: relative;
     height: 40px;
     margin-bottom: 10px;
@@ -130,22 +130,22 @@
 }
 
 .form {
-  &_field {
+  &__field {
       display: flex;
       flex-direction: column;
     }
 
-  &_field .modal-icon {
+  &__field .modal__icon {
     cursor: pointer;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  &_field:hover .modal-icon,
-  &_field:focus .modal-icon {
+  &__field:hover .modal__icon,
+  &__field:focus .modal__icon {
     fill: var(--acent-color);
   }
   
-  &_field::placeholder {
+  &__field::placeholder {
     color: rgba(117, 117, 117, 0.5);
   }
 }

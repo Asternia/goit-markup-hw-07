@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
-  &_link {
+  &__link {
     fill: var(--logo-color);
     padding: 16px 32px;
     border: 1px solid var(--logo-color);
@@ -12,8 +12,8 @@
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &_link:hover,
-  &_link:focus {
+  &__link:hover,
+  &__link:focus {
     fill: var(--acent-color);
     border: 1px solid var(--acent-color);
   }

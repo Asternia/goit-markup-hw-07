@@ -13,19 +13,19 @@
 .work {
   display: flex;
 
-  &_section {
+  &__section {
     padding-bottom: 94px;
   }
 
-  &_list:not(:last-child) {
+  &__list:not(:last-child) {
     margin-right: 30px;
   }
 
-  &_img {
+  &__img {
     position: relative;
   }
 
-  &_text {
+  &__text {
     padding: 27px 0;
   
     font-weight: 700;
@@ -37,7 +37,7 @@
     color: var(--white);
   }
   
-  &_block {
+  &__block {
     position: absolute;
     bottom: 0;
     width: 100%;

@@ -3,11 +3,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
-  &_list {
+  &__list {
     display: flex;
   }
 
-  &_people {
+  &__people {
     background-color: var(--white);
     fill: var(--logo-color);
   
@@ -16,15 +16,15 @@
     border-radius: 0px 0px 4px 4px;
   }
   
-  &_people:not(:last-child) {
+  &__people:not(:last-child) {
     margin-right: 30px;
   }
 
-  &_container {
+  &__container {
     margin-bottom: 30px;
   }
 
-  &_title {
+  &__title {
     margin-top: 30px;
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -35,7 +35,7 @@
     line-height: 1.18;
   }
 
-  &_text {
+  &__text {
     margin-bottom: 16px;
   
     text-align: center;

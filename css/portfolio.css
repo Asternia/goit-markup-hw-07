@@ -75,7 +75,7 @@ ul {
   font-size: 26px;
   line-height: 1.2;
 }
-.logo_main {
+.logo__main {
   color: var(--black);
 }
 
@@ -235,26 +235,26 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.project_list {
+.project__list {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.project_list:nth-child(3n) {
+.project__list:nth-child(3n) {
   margin-right: 0;
 }
-.project_link {
+.project__link {
   text-decoration: none;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project_link:hover, .project_link:focus {
+.project__link:hover, .project__link:focus {
   display: block;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.project_title {
+.project__title {
   margin-top: 20px;
   margin-bottom: 4px;
   color: var(--title-text-color);
@@ -263,13 +263,13 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.project_text {
+.project__text {
   margin: 0;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.8;
 }
-.project .project_border {
+.project__border {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
@@ -279,7 +279,7 @@ header {
   position: relative;
   overflow: hidden;
 }
-.container-project_text {
+.container-project__text {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -297,7 +297,7 @@ header {
   color: var(--white);
 }
 
-.project_link:hover .container-project_text {
+.project__link:hover .container-project__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
@@ -308,7 +308,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer_container {
+.footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,18 +316,18 @@ header {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-.footer_list {
+.footer__list {
   display: block;
   margin-top: 20px;
 }
-.footer_li:not(:last-child) {
+.footer__li:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer_case {
+.footer__case {
   margin-left: 70px;
   margin-right: 93px;
 }
-.footer_title {
+.footer__title {
   display: block;
   margin-bottom: 20px;
   color: var(--white);
@@ -337,7 +337,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer_link {
+.footer__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,10 +347,10 @@ header {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer_link:hover, .footer_link:focus {
+.footer__link:hover, .footer__link:focus {
   background-color: var(--acent-color);
 }
-.footer_form {
+.footer__form {
   height: 50px;
   width: 358px;
   padding-left: 16px;
@@ -362,7 +362,7 @@ header {
   background-color: var(--secondary-background-color);
   color: var(--white);
 }
-.footer_button {
+.footer__button {
   width: 200px;
   height: 50px;
   padding: 0;
@@ -373,17 +373,17 @@ header {
   border: 1px solid transparent;
   cursor: pointer;
 }
-.footer_button:hover, .footer_button:focus {
+.footer__button:hover, .footer__button:focus {
   background-color: #188ce8;
 }
-.footer_button-text {
+.footer__button-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white);
 }
-.footer_icon-list {
+.footer__icon-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,15 +398,15 @@ header {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
 }
-.footer_icon-list:not(:last-child) {
+.footer__icon-list:not(:last-child) {
   margin-right: 10px;
 }
-.footer_main-list {
+.footer__main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.footer_logo {
+.footer__logo {
   color: var(--white);
 }
 

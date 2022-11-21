@@ -75,7 +75,7 @@ ul {
   font-size: 26px;
   line-height: 1.2;
 }
-.logo_main {
+.logo__main {
   color: var(--black);
 }
 
@@ -192,7 +192,7 @@ header {
   padding: 200px 0;
   margin: 0 auto;
 }
-.hero_title {
+.hero__title {
   max-width: 696px;
   margin: 0 auto 30px;
   color: var(--white);
@@ -255,7 +255,7 @@ header {
   width: 528px;
   background-color: var(--white);
 }
-.modal_h {
+.modal__h {
   display: block;
   margin-bottom: 12px;
   font-weight: 700;
@@ -264,18 +264,18 @@ header {
   text-align: center;
   color: var(--title-text-color);
 }
-.modal_icon {
+.modal__icon {
   position: absolute;
   -webkit-transform: translateY(28px) translateX(12px);
           transform: translateY(28px) translateX(12px);
 }
-.modal_text {
+.modal__text {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
 }
-.modal_button {
+.modal__button {
   display: block;
   margin: 30px auto 0;
   padding: 10px 52px;
@@ -294,11 +294,11 @@ header {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal_button:hover, .modal_button:focus {
+.modal__button:hover, .modal__button:focus {
   background-color: var(--background-button-color);
   outline: none;
 }
-.modal_link {
+.modal__link {
   color: var(--acent-color);
 }
 
@@ -322,7 +322,7 @@ header {
   margin-right: auto;
   padding: 40px;
 }
-.form_input {
+.form__input {
   position: relative;
   height: 40px;
   margin-bottom: 10px;
@@ -333,15 +333,15 @@ header {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form_input:hover, .form_input:focus {
+.form__input:hover, .form__input:focus {
   border: 1px solid var(--acent-color);
   outline: none;
 }
-.form_input:focus + svg {
+.form__input:focus + svg {
   fill: var(--acent-color);
 }
 
-.form_field {
+.form__field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,27 +350,27 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.form_field .modal-icon {
+.form__field .modal__icon {
   cursor: pointer;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form_field:hover .modal-icon, .form_field:focus .modal-icon {
+.form__field:hover .modal__icon, .form__field:focus .modal__icon {
   fill: var(--acent-color);
 }
-.form_field::-webkit-input-placeholder {
+.form__field::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.form_field::-moz-placeholder {
+.form__field::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.form_field:-ms-input-placeholder {
+.form__field:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.form_field::-ms-input-placeholder {
+.form__field::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.form_field::placeholder {
+.form__field::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -483,17 +483,17 @@ textarea:hover, textarea:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.benefits_section {
+.benefits__section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-.benefits_list {
+.benefits__list {
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
 }
-.benefits_title {
+.benefits__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -502,7 +502,7 @@ textarea:hover, textarea:focus {
   margin: 0;
   padding: 0;
 }
-.benefits_p {
+.benefits__p {
   margin: 10px 0 0 0;
 }
 
@@ -521,16 +521,16 @@ textarea:hover, textarea:focus {
   display: -ms-flexbox;
   display: flex;
 }
-.work_section {
+.work__section {
   padding-bottom: 94px;
 }
-.work_list:not(:last-child) {
+.work__list:not(:last-child) {
   margin-right: 30px;
 }
-.work_img {
+.work__img {
   position: relative;
 }
-.work_text {
+.work__text {
   padding: 27px 0;
   font-weight: 700;
   line-height: 1.14;
@@ -538,7 +538,7 @@ textarea:hover, textarea:focus {
   text-transform: uppercase;
   color: var(--white);
 }
-.work_block {
+.work__block {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -551,25 +551,25 @@ textarea:hover, textarea:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.team_list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.team_people {
+.team__people {
   background-color: var(--white);
   fill: var(--logo-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team_people:not(:last-child) {
+.team__people:not(:last-child) {
   margin-right: 30px;
 }
-.team_container {
+.team__container {
   margin-bottom: 30px;
 }
-.team_title {
+.team__title {
   margin-top: 30px;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -578,7 +578,7 @@ textarea:hover, textarea:focus {
   font-size: 16px;
   line-height: 1.18;
 }
-.team_text {
+.team__text {
   margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
@@ -643,7 +643,7 @@ textarea:hover, textarea:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.client_link {
+.client__link {
   fill: var(--logo-color);
   padding: 16px 32px;
   border: 1px solid var(--logo-color);
@@ -651,7 +651,7 @@ textarea:hover, textarea:focus {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client_link:hover, .client_link:focus {
+.client__link:hover, .client__link:focus {
   fill: var(--acent-color);
   border: 1px solid var(--acent-color);
 }
@@ -684,7 +684,7 @@ textarea:hover, textarea:focus {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer_container {
+.footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,18 +692,18 @@ textarea:hover, textarea:focus {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-.footer_list {
+.footer__list {
   display: block;
   margin-top: 20px;
 }
-.footer_li:not(:last-child) {
+.footer__li:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer_case {
+.footer__case {
   margin-left: 70px;
   margin-right: 93px;
 }
-.footer_title {
+.footer__title {
   display: block;
   margin-bottom: 20px;
   color: var(--white);
@@ -713,7 +713,7 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer_link {
+.footer__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -723,10 +723,10 @@ textarea:hover, textarea:focus {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer_link:hover, .footer_link:focus {
+.footer__link:hover, .footer__link:focus {
   background-color: var(--acent-color);
 }
-.footer_form {
+.footer__form {
   height: 50px;
   width: 358px;
   padding-left: 16px;
@@ -738,7 +738,7 @@ textarea:hover, textarea:focus {
   background-color: var(--secondary-background-color);
   color: var(--white);
 }
-.footer_button {
+.footer__button {
   width: 200px;
   height: 50px;
   padding: 0;
@@ -749,17 +749,17 @@ textarea:hover, textarea:focus {
   border: 1px solid transparent;
   cursor: pointer;
 }
-.footer_button:hover, .footer_button:focus {
+.footer__button:hover, .footer__button:focus {
   background-color: #188ce8;
 }
-.footer_button-text {
+.footer__button-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white);
 }
-.footer_icon-list {
+.footer__icon-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -774,15 +774,15 @@ textarea:hover, textarea:focus {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
 }
-.footer_icon-list:not(:last-child) {
+.footer__icon-list:not(:last-child) {
   margin-right: 10px;
 }
-.footer_main-list {
+.footer__main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.footer_logo {
+.footer__logo {
   color: var(--white);
 }
 

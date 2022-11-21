@@ -13,16 +13,16 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
-  &_section {
+  &__section {
     display: flex;
     gap: 30px;
   }
 
-  &_list {
+  &__list {
     flex-basis: calc((100% - 90px) / 4);
   }
 
-  &_title {
+  &__title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -35,7 +35,7 @@
     padding: 0;
   }
 
-  &_p {
+  &__p {
     margin: 10px 0 0 0;
   }
 }
